@@ -223,6 +223,7 @@ body {
   list-style-type: none;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
   padding: 0;
   margin-top: 0;
   margin-bottom: 15px;
