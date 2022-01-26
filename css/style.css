@@ -721,17 +721,17 @@ body {
   width: 100%; 
   height: 100%; 
   background: rgba(0,0,0,0.6);
+  display: none;
 }
 
 .popup {
   position: absolute;
   width: 390px;
-  height: 590px;
   background-color: #ffffff;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  padding: 45px 30px 0;
+  padding: 50px 30px 30px;
   box-sizing: border-box;
 }
 
@@ -842,8 +842,7 @@ body {
   max-width: 330px;
   max-height: 130px;
   font-family: opensans;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 20px;
   border: none;
   background-color: #f4f7f6;
 }
@@ -1275,8 +1274,7 @@ body {
 
   .popup {
     width: 330px;
-    height: 560px;
-    padding: 30px 25px 0;
+    padding: 30px 25px 30px;
   }
   
   .close-popup {
