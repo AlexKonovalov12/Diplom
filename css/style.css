@@ -211,7 +211,7 @@ body {
   background-color: #eff5f1;
 }
 
-.article:nth-child(n + 2) {
+.nth_child {
   margin-top: 60px;
 }
 
@@ -297,7 +297,7 @@ body {
   text-align: center;
 }
 
-.aside_content:nth-child(n + 2) {
+.nth_child {
   margin-top: 60px;
 }
 
@@ -428,7 +428,7 @@ body {
   line-height: normal;
   color: #000000;
   font-weight: 400;
-  font-family: "Open Sans";
+  font-family: "OpenSans";
   background-color: #f4f7f6;
 }
 
@@ -814,10 +814,6 @@ body {
   font-weight: 400;
 }
 
-.radio_text:nth-of-type(n+2) {
-  margin-left: 20px;
-}
-
 .radio_text::before {
   content: "";
   background-image: url(../svg/form-empty-circle.svg);
@@ -979,7 +975,7 @@ body {
     margin-left: 0px;
   }
 
-  .article:nth-child(n + 2) {
+  .article,.nth-child {
     margin-top: 42px;
   }
 
@@ -1173,7 +1169,7 @@ body {
     margin-left: 0px;
   }
 
-  .article:nth-child(n + 2) {
+  .article,.nth-child {
     margin-top: 35px;
   }
 
@@ -1206,7 +1202,7 @@ body {
     margin: 45px 0 0 0;
   }
   
-  .aside_content:nth-child(n + 3) {
+  .aside_content,.nth-child {
     margin-top: 45px;
   }
 
