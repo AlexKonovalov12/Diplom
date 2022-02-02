@@ -904,6 +904,7 @@ body {
     background: #ffffff;
     margin: 0 auto;
     padding: 0;
+    
   }
 
   .menu-burger__header span {
@@ -1056,7 +1057,7 @@ body {
     margin: auto;
     flex-direction: column-reverse;
     align-items: flex-end;
-    padding-right: 15px;
+    
     row-gap: 185px;
   }
 
@@ -1083,6 +1084,7 @@ body {
     background: #ffffff;
     margin: 0 auto;
     padding: 0;
+    right: 15px;
   }
 
   .menu-burger__header span {
