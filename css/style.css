@@ -364,7 +364,8 @@ body {
 
 .field {
   height: 50px;
-  width: 200px;
+  width: 220px;
+  box-sizing: border-box;
   background-color: #f4f7f6;
   border: none;
   padding: 0 20px 0 20px;
@@ -401,10 +402,7 @@ body {
 }
 
 .search_text {
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute;
+  display: none;
 }
 
 .search_label {
