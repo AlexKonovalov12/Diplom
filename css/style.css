@@ -408,10 +408,7 @@ body {
 }
 
 .search_label {
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute;
+  display: none;
 }
 
 .form {
@@ -437,10 +434,7 @@ body {
 }
 
 .label {
-  width: 1px;
-  height: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute;
+  display: none;
 }
 
 .subscribe_button {
